@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name="dbo.uv_stefanini_rede")
+@Table(name="censored")
 public class Ticket extends PanacheEntity {
     @Column(name="NUMERO")
     public Integer numero;
